@@ -7,18 +7,22 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
     <link rel="stylesheet" href="style.css">
     <title>Grab Eatery</title>
   </head>
 
+
   <body>
     <nav>
         <a href="grabeatery.com">
-            <img src="https://uploads-ssl.webflow.com/5e8a48c6bcf6e11741c96899/5f20243121fb973978f10d2d_LandingPageWebElements.png"/>
+            <img id="logo" src="https://uploads-ssl.webflow.com/5e8a48c6bcf6e11741c96899/5f20243121fb973978f10d2d_LandingPageWebElements.png"/>
         </a>
     </nav>
 
-    <div>
+
+    <!-- Jumbotron -->
+    <!-- <div>
         <h3>Grab Eatery Order Online</h3>
         <p>GRAB Eatery was born out of our desire to make good, 
         healthy food accessible to everyone, and to break the 
@@ -30,26 +34,51 @@
         <button>
             <a href="">Order Now!</a>
         </button>
+    </div> -->
+
+    <div class="jumbotron">
+        <h1 class="display-4">Grab Eatery Order Online</h1>
+        <p class="lead">GRAB Eatery was born out of our desire to make good, 
+        healthy food accessible to everyone, and to break the 
+        cycle of diet related diseases in our families and community. 
+        We started our journey in February 2012 with a meal delivery 
+        and catering company which served the greater Downtown Detroit area. 
+        The response was overwhelming!</p>
+        <hr class="my-4">
+        <p>Click below to order now!</p>
+        <a class="btn btn-primary btn-lg" href="#" role="button">Order Now!</a>
     </div>
 
-    <div>
-        <img src="https://uploads-ssl.webflow.com/5e8a48c6bcf6e11741c96899/5f2024d05b079b7837c1cfc6_LandingPageWebElements.png"/>
-        <h4>Our Mission</h4>
-        <p> Our mission is to help people live healthier lives by providing great-tasting, 
-        high-quality, nutritious vegan food that appeals to everyone, while at the same 
-        time doing our part to support a sustainable earth. We partner with local food providers 
-        such as The Brinery, Earthworks, Keep Growing Detroit and D Town farms – they provide our 
-        seasonal organic produce and we give them our food waste for composting to help them fertilize their farm.</p>
+    <!-- Section1 -->
+    <div class="row align-items-start">
+        <div class="col-md-6">
+            <img class="pics" src="https://uploads-ssl.webflow.com/5e8a48c6bcf6e11741c96899/5f2024d05b079b7837c1cfc6_LandingPageWebElements.png"/>
+        </div>
+
+        <div class="col-md-6">
+            <h4>Our Mission</h4>
+            <p> Our mission is to help people live healthier lives by providing great-tasting, 
+            high-quality, nutritious vegan food that appeals to everyone, while at the same 
+            time doing our part to support a sustainable earth. We partner with local food providers 
+            such as The Brinery, Earthworks, Keep Growing Detroit and D Town farms – they provide our 
+            seasonal organic produce and we give them our food waste for composting to help them fertilize their farm.</p>
+        </div>
     </div>
 
-    <div>
-        <h4>Our Mission</h4>
-        <p>At Grab Eateryl, you can enjoy your favorite comfort foods with confidence that 
-        the ingredients are fresh, mostly organic, and completely plant-based. We have several 
-        soy free and gluten-free options. Our menu is prepared without GMOs, additives, preservatives,
-         refined flours, sugars, dairy, eggs or animal by products and with LOTS OF LOVE!</p>
-        <img src="https://uploads-ssl.webflow.com/5e8a48c6bcf6e11741c96899/5f2024b63a77352ae9c30503_LandingPageWebElements.png"/>
+    <!-- Section2 -->
+    <div class="row">
+        <div class="col-md-6">
+            <h4>Our Mission</h4>
+            <p>At Grab Eateryl, you can enjoy your favorite comfort foods with confidence that 
+            the ingredients are fresh, mostly organic, and completely plant-based. We have several 
+            soy free and gluten-free options. Our menu is prepared without GMOs, additives, preservatives,
+            refined flours, sugars, dairy, eggs or animal by products and with LOTS OF LOVE!</p>
+        </div>
+        <div class="col-md-6">
+            <img class="pics" src="https://uploads-ssl.webflow.com/5e8a48c6bcf6e11741c96899/5f2024b63a77352ae9c30503_LandingPageWebElements.png"/>
+        </div>
     </div>
+
 
     <form>
         <h3>Place your order</h3>
